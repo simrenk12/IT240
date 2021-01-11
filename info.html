@@ -1,0 +1,280 @@
+
+<html lang="en">
+<head>
+<title>Infomation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background-color: #E2E0F6
+}
+
+header { padding: 20px;
+         text-align: center;
+         background: #022859;
+         color: white;
+
+}
+header h1 {
+  color: white;
+  text-align: center;
+}
+header h2 {
+  color: white;
+  text-align: center;
+}
+
+header span { font-style: italic;
+              font-weight: bold;
+              color: white;
+              font-size: 20px;
+              padding-right: 15px;
+              text-align: right;
+              display: block; 
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #1D3240;
+}
+
+nav li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:link { color: #ffffff; }
+nav a:visited { color: #eaeaea; }
+nav a:hover {  color: #869dc7;
+               background-color: #eaeaea;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 60%;
+  background-color: #E2E0F6;
+  padding-right: 20px;
+  padding: 10px;
+}
+
+.rightcolumn {
+  float: right;
+  width: 40%;
+  background-color: #E2E0F6;
+  padding-left: 20px;
+  padding: 10px;
+}
+.pic {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.fotorama{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  clear: both;
+  background-color: #022859;;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+button{
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+h4{
+  color: #F27329;
+}
+h3{
+  color: #F26430;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Laptops</h1>
+  <span>By: Simren Kaur</span>
+</header>
+
+<nav>
+    <ul>
+      <li><a href="homepage.html">Homepage</a></li>
+      <li><a href="info.html">Laptops</a></li>
+      <li><a href="info2.html">Cell Phones</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="leftcolumn">
+    <div class="section">
+      <header><h2>Laptops</h2></header>
+      <h3>MacBook Pro</h3>
+      <img class = "pic"src="images/macbook.jpg">
+    <p><b>CPU:</b> Intel Core i9</p>
+    <p><b>GPU:</b> AMD Radeon Pro 5500M</p>
+    <p><b>RAM:</b> 32GB</p>
+    <p><b>Storage:</b> 512GB SSD</p>
+    <p><b>Display:</b> 16-inch, 1920p</p>
+    <p><b>Size:</b> 14.1 x 9.7 x 0.6 inches</p>
+    <p><b>Weight:</b> 4.3 pounds</p>
+    <p>Pros</p>
+    <ul>
+        <li>Strong Performance</li>
+        <li>16-inch Retina display</li>
+        <li>Improved Magic Keyboard</li>
+        <li>Six Speaker sound system</li>
+        <li>Up to 11hrs of battery life</li>
+    </ul>
+    <p>Cons</p>
+    <ul>
+        <li>Expensive</li>
+        <li>Not 4k Display</li>
+        <li>No full-size UBS port or SC card slot</li>
+      </ul>
+    <button>
+      <a href="https://www.apple.com/shop/buy-mac/macbook-pro/13-inch"> Buy MacBook Pro</a>
+    </button>
+    </div>
+
+    <div class="section">
+      <h3>Dell XPS 13</h3>
+      <img class = "pic"src="images/dell.jpg">
+      <p><b>CPU:</b> 10th Generation Intel Core i7/p>
+      <p><b>GPU:</b> Intel UHD Graphics 620</p>
+      <p><b>RAM:</b> 16GB </p>
+      <p><b>Storage:</b> 1TB PCIe SSD</p>
+      <p><b>Display:</b> 13-inch, 4K</p>
+      <p><b>Size:</b> 11.9" x 7.8" x 0.5" inches</p>
+      <p><b>Weight:</b> 2.56 pounds</p>
+      <p>Pros</p>
+      <ul>
+        <li>Lightweight Design</li>
+        <li>4k Display</li>
+        <li>13-inch Touch Display</li>
+        <li>Strong Performance</li>
+      </ul>
+      <p>Cons</p>
+      <ul>
+        <li>Low Battery life</li>
+      </ul>
+    
+      <button>
+         <a href="https://www.dell.com/en-us/shop/laptops/new-13/spd/xps-13-7390-laptop">Buy Dell XPS 13</a>
+      </button>
+    </div>
+
+
+    <div class="section">
+      <h3>Windows Suface Pro 7</h3>
+      <img class = "pic"src="images/windows.jpg">
+      <p><b>CPU:</b> Intel Core i7-1065G7</p>
+      <p><b>GPU:</b> Intel Iris Plus Graphics (i5, i7)</p>
+      <p><b>RAM:</b> 4GB, 8GB, or 16GB LPDDR4x </p>
+      <p><b>Storage:</b> 128GB, 256GB, 512GB, or 1TB SSD</p>
+      <p><b>Display:</b> 12.3 inch touchscreen diplay</p>
+      <p><b>Size:</b> 11.5” x 7.9” x 0.33” </p>
+      <p><b>Weight:</b> 1.70 pounds</p>
+    <p>Pros</p>
+    <ul>
+        <li>Lightweight Design</li>
+        <li>12.3 inch touchscreen diplay</li>
+        <li>USB-C and USB-A connections</li>
+        <li>Faster multitasking and improved graphics</li>
+    </ul>
+    <p>Cons</p>
+    <ul>
+        <li>Low Battery life</li>
+    </ul>
+      <button>
+         <a href="https://www.microsoft.com/en-us/p/surface-pro-7/8n17j0m5zzqs?activetab=overview">Buy Windows Suface Pro 7</a>
+      </button>
+    </div>
+  </div>
+  
+  <div class="rightcolumn">
+    <div class="section">
+      <header><h2>Tablets</h2></header>
+      <h3>iPad</h3>
+      <img class = "pic"src="images/ipad.jpg">
+    <p><b>Storage:</b> 32GB or 128GB</p>
+    <p><b>Display:</b> 10.2 inches</p>
+    <p><b>Size:</b> 9.8 x 6.8 0.3 inches</p>
+    <p><b>Weight:</b> 1.1 pounds</p>
+    <p><b>Ports:</b> Lighting and Headphone</p>
+      <button>
+        <a href="https://www.apple.com/shop/buy-ipad/ipad-10-2">Buy iPad</a>
+      </button>
+      </div>
+       <div class="section">
+      <h3>Galaxy Tab S6</h3>
+      <img class = "pic"src="images/tab.jpg">
+    <p><b>Storage:</b> 128GB or 256GB</p>
+    <p><b>Display: 10.5 inches</b></p>
+    <p><b>Size:</b> 9.6 x 6.3 x 0.2 inches</p>
+    <p><b>Weight:</b> 0.95 pounds</p>
+    <p><b>Ports:</b> USB-C and microSD</p>
+      <button>
+        <a href="https://www.samsung.com/us/mobile/tablets/buy/s/Options/">Buy Galaxy Tab S6</a>
+      </button>
+  	</div>
+  	 <div class="section">
+      <h3>Amozon Fire HD 8</h3>
+      <img class = "pic"src="images/amazon.jpg">
+    <p><b>Storage:</b> 16 GB</p>
+    <p><b>Display:</b> 8 inches</p>
+    <p><b>Size:</b> 8.4 x 5.0 x 0.4 inches</p>
+    <p><b>Weight:</b> 12.8 ounces</p>
+    <p><b>Ports:</b> microSD</p>
+      <button>
+        <a href="https://www.amazon.com/dp/B0794RHPZD?ref=ODS_v2_FS_TAB_FHD8">Buy Amazon Fire HD 8</a>
+      </button>
+      
+
+    </div>
+</div>
+
+<footer>
+  <p>Copyright &copy; 2019</p>
+</footer>
+</body>
+</html>

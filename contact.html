@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Form</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background-color: #E2E0F6
+}
+
+header { padding: 20px;
+         text-align: center;
+         background: #022859;
+         color: white;
+
+}
+header h1 {
+  color: white;
+  text-align: center;
+  
+}
+header h2 {
+  color: white;
+  text-align: center;
+}
+
+header span { font-style: italic;
+              font-weight: bold;
+              color: white;
+              font-size: 20px;
+              padding-right: 15px;
+              text-align: right;
+              display: block; 
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #1D3240;
+}
+
+nav li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:link { color: #ffffff; }
+nav a:visited { color: #eaeaea; }
+nav a:hover {  color: #869dc7;
+               background-color: #eaeaea;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 60%;
+  background-color: #E2E0F6;
+  padding-right: 20px;
+  padding: 10px;
+}
+
+.rightcolumn {
+  float: right;
+  width: 40%;
+  background-color: #E2E0F6;
+  padding-left: 20px;
+  padding: 10px;
+}
+.pic {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+footer {
+  clear: both;
+  background-color: #022859;;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+h2{
+  color: #F26430;
+}
+h3{
+  text-align: center;
+  padding: 10px;
+}
+
+form { background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+       padding: 20px;	}
+
+label { float: left;
+	    width: 100px; 
+	    clear: left;
+	    text-align: right; 
+	    padding-right: 10px;
+	    margin-top: 10px; }
+input, textarea { margin-top: 10px; 
+                  display: block;} 
+#mySubmit { margin-left: 110px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Contact Us</h1>
+  <span>By: Simren Kaur</span>
+</header>
+
+
+  <nav>
+    <ul>
+      <li><a href="homepage.html">Homepage</a></li>
+      <li><a href="info.html">Laptops</a></li>
+      <li><a href="info2.html">Cell Phones</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+  <label for="firstName"> First Name:</label>
+  <input type="text" name="firstName" id="myName">
+  <label for="lastName"> Last Name:</label>
+  <input type="text" name="lastName" id="myName">
+  <label for="myEmail">E-mail:</label>
+  <input type="text" name="myEmail" id="myEmail">
+  <label for="myComments">Comments:</label>
+  <textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+  <input id="mySubmit" type="submit" value="Submit">
+</form>
+
+<footer>
+  <p>Copyright &copy; 2019</p>
+</footer>
+</body>
+</html>
